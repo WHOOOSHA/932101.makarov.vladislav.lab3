@@ -1,0 +1,70 @@
+body, html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    height: 5vmin;
+}
+
+.container {
+    display: flex;
+    max-width: 600px;
+    flex: 1 1 auto;
+}
+
+.left {
+    width: 125px;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    padding: 40px;
+    flex: 0.4 1 auto;
+}
+
+.content {  
+    max-width: 475px;
+    padding-left: 20px;
+    text-align: justify;
+    flex: 0.6 1 auto;
+}
+
+footer
+{
+    background-color: black;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    font-size: small;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 90vmin;
+}
+
+nav { 
+    margin-bottom: 10px;
+}
+
+::selection {
+    background-color: green;
+    color: white;
+}
+
+nav:hover{
+    background-color: green;
+    color: white;
+}
